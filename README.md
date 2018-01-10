@@ -52,24 +52,34 @@ usage: driveshake.py [-h] [-b BSSID_FILTER] [-e ESSID_FILTER] [-c CHANNEL]
                      interface
 
 positional arguments:
+
   interface         wifi interface capable of monitor mode
 
 optional arguments:
+
   -h, --help        show this help message and exit
-  -b BSSID_FILTER   bssid to filter for or file containing bssid to filter for
-                    (one per line)
-  -e ESSID_FILTER   essid to filter for or file containing essid to filter for
-                    (one per line)
+
+  -b BSSID_FILTER   bssid to filter for or file containing bssid to filter for (one per line)
+
+  -e ESSID_FILTER   essid to filter for or file containing essid to filter for (one per line)
+
   -c CHANNEL        specify channel
-  -i IGNORE_BSSID   bssid to ignore, or file containing list of bssids (one
-                    per line)
+
+  -i IGNORE_BSSID   bssid to ignore, or file containing list of bssids (one per line)
+
   -t SCANTIME       length of scan time (default 10s)
-  -w WAITTIME       time to wait for WPA handshake after deauth (defaults:
-                    capturemode 90s, automode 30s)
+
+  -w WAITTIME       time to wait for WPA handshake after deauth (defaults: capturemode 90s, automode 30s)
+
   -d DEAUTH_COUNT   number of deauth frames to send (default 10)
+
   -A                auto find AP, de-auth, capture handshakes
+
   -S                scan and display AP's
+
   -C                capture handshake for specified AP
+
   -o OUTPUT_FILE    location to output .cap file (capture mode)
+
   -O OUTPUT_FOLDER  output folder for storing cap files (auto mode)
 
