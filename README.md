@@ -1,3 +1,13 @@
+<pre>
+|\   ___ \|\   __  \|\  \|\  \    /  /|\  ___ \ |\   ____\|\  \|\  \|\   __  \|\  \|\  \ |\  ___ \     
+\ \  \_|\ \ \  \|\  \ \  \ \  \  /  / | \   __/|\ \  \___|\ \  \\\  \ \  \|\  \ \  \/  /|\ \   __/|    
+ \ \  \ \\ \ \   _  _\ \  \ \  \/  / / \ \  \_|/_\ \_____  \ \   __  \ \   __  \ \   ___  \ \  \_|/__  
+  \ \  \_\\ \ \  \\  \\ \  \ \    / /   \ \  \_|\ \|____|\  \ \  \ \  \ \  \ \  \ \  \\ \  \ \  \_|\ \ 
+   \ \_______\ \__\\ _\\ \__\ \__/ /     \ \_______\____\_\  \ \__\ \__\ \__\ \__\ \__\\ \__\ \_______\
+    \|_______|\|__|\|__|\|__|\|__|/       \|_______|\_________\|__|\|__|\|__|\|__|\|__| \|__|\|_______|
+                                                   \|_________|                                        
+</pre>
+
 # DriveShake
 
 Wifi network scanning tool, which can also capture WPA/WPA2 PSK handshakes. The tool automatically finds clients connected to the access point and sends deauthentication packets while sniffing for the handshake.
