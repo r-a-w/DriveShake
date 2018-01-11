@@ -12,6 +12,10 @@
 
 Wifi network scanning tool, which can also capture WPA/WPA2 PSK handshakes. The tool automatically finds clients connected to the access point and sends deauthentication packets while sniffing for the handshake.
 
+This tool should only be used on your own network or with the explicit legal consent of the owner of the network. The author of this tool does not condone is not responsible for misuse of this tool.
+
+In no event shall the creators, owner, or contributors be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this software, even if advised of the possibility of such damage.
+
 ## Dependencies
 
   - python 2.x
