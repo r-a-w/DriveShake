@@ -458,8 +458,10 @@ def scanModeCapture(interface, bssid_filter, essid_filter, ignore_bssid,  channe
                         continue
 
         if not essid_filter:
-            if ap.ssid:
-                ssid = ap.ssid
+            for ap in access_points:
+                if ap.bssid == bssid_filter:
+                    if ap.ssid:
+                        ssid = ap.ssid
         else:
             ssid = essid_filter
 
